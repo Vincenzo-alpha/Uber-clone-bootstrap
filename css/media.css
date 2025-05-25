@@ -1,0 +1,55 @@
+@media (min-width: 1400px) {
+
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm {
+        max-width: 1170px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .navbar_inner {
+        padding: 0 20px;
+    }
+
+    .navbar-nav .nav-link,
+    .navbar-nav .btn {
+        text-align: center;
+        width: 100%;
+    }
+
+    .navbar-nav {
+        align-items: flex-start;
+    }
+
+    .map-container {
+        height: 300px;
+    }
+
+    .route h1 {
+        font-size: 36px;
+        line-height: 42px;
+        text-align: center;
+    }
+
+    .opt {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .ride {
+        width: auto;
+        display: flex;
+        justify-content: center;
+    }
+
+    .form-raid {
+        padding: 0;
+    }
+
+    .navbar .btn,
+    .navbar .nav-link {
+      font-size: 0.9rem;
+    }
+}

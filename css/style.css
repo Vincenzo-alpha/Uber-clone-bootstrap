@@ -1,0 +1,227 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    /* font-weight: <weight>; */
+    font-style: normal;
+    /* font-variation-settings: "wdth" 100; */
+    box-sizing: border-box;
+}
+
+.logo {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 24px;
+
+}
+
+.logo span {
+    font-size: 31px;
+}
+
+.custom-toggler {
+    border-radius: 50%;
+    background-color: #1c1c1c;
+    padding: 8px;
+    border: none;
+}
+
+.navContainer a,
+.sign a {
+    color: white;
+    font-size: 14px;
+    padding: 10px 12px !important;
+    font-weight: 400;
+}
+
+.navbar_inner {
+    padding: 0 114px;
+    height: 40px;
+}
+
+.sign button {
+    /* font-size: 14px; */
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    padding: 10px 12px !important;
+}
+
+.material-symbols-outlined {
+    color: #fff;
+    font-size: 16px;
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 24
+}
+
+.route h1 {
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 64px;
+}
+
+.opt {
+    width: 60%;
+}
+
+.opt p,
+.opt i {
+    font-size: 15px;
+}
+
+.material-symbols-outlined {
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 20
+}
+
+.ride {
+    width: 15px;
+}
+
+.ride img {
+    width: 30px;
+}
+
+
+/* form */
+
+.form-control {
+    border-radius: 10px;
+
+}
+
+.btn-custom {
+    width: 50%;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
+
+.btn-custom:hover {
+    background-color: #333;
+}
+
+.input-group input {
+    width: 100%;
+}
+
+/* map */
+
+.map-container {
+    width: 100%;
+    height: 500px;
+    /* Or use 100vh, or a parent-defined height */
+    position: relative;
+    overflow: hidden;
+}
+
+.map-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 500px;
+    border: 0;
+    border-radius: 10px;
+}
+
+/* suggest section */
+.suggest-row .col {
+    /* height: 128px;  */
+    width: fit-content;
+    border-radius: 10px !important;
+    background: #f6daeb !important;
+
+}
+
+.sug-box-inner div h4 {
+    font-size: 16px;
+}
+
+.sug-box-inner div p {
+    font-size: 12px;
+}
+
+.sug-box-inner div img {
+    width: 128px;
+    height: 128px;
+    /* mix-blend-mode: multiply; */
+}
+
+.sug-box-inner div button {
+    font-size: 14px;
+    width: fit-content;
+    border-radius: 15px;
+    padding: 10px 12px;
+}
+
+.sug-box-inner div {
+    width: 161px;
+    /* box-shadow: inset; */
+}
+
+/* plan for later section */
+.ride-time,
+.ride-details {
+    height: 340px;
+}
+
+.ride-time {
+    width: calc(100% - 384px);
+    background: url(https://www.uber-assets.com/image/upload/v1709643470/assets/51/52cc71-a5b0-4fbd-aeb8-bee896efcd48/original/image-9.png);
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+    background-size: contain;
+    background-color: rgb(157, 205, 214) !important;
+}
+
+.ride-time h2 {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 44px;
+}
+
+.ride-details h2 {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+    margin-top: 0px;
+}
+
+.ride-details li {
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 24px;
+    color: rgb(0, 0, 0);
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+
+.img-box img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.text-section h1 {
+    font-weight: 700;
+}
+
+.text-section p {
+    margin-top: 1rem;
+    font-size: 1rem;
+}
+
+
+a{
+    color: black;
+}
